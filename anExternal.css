@@ -1,0 +1,52 @@
+#arialfont {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#timesfont {
+    font-family: 'Times New Roman', Times, serif
+}
+
+.imagefifty{
+    max-width: 50px;
+    height: auto;
+    overflow: auto;
+}
+
+body {
+    border: 3px solid red;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+    color: black;
+}
+
+.photomargins {
+    margin: 20px 20px 20px 20px;
+}
+
+.dottedText {
+    border-style: dotted;
+}
+
+.floatedimage {
+    float:left;
+}
+
+.roundedcorners {
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 10px;
+    width: 100px;
+    height: 100px;
+}
